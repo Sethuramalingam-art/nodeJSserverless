@@ -3,4 +3,4 @@ npm install -g serverless
 
 serverless config credentials --provider aws --key <key> --secret <secret-key> 
 
-serverless create -t aws-nodejs (it will create serverless.yml)
+serverless create -t aws-nodejs (it will create serverless.yml, handler.js)
